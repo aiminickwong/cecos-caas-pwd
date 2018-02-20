@@ -12,6 +12,7 @@ services:
     image: openfans/cecos-caas-demo:latest
     container_name: "cecos-caas-demo"
     command: -l service=openfans.cecos.caas.mgmt --no-analytics
+    hostname: "cecos-caas-demo"
     networks:
       - local
     volumes:
