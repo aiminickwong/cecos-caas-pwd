@@ -26,5 +26,5 @@ exec_in worker1 docker swarm join --token $TOKEN_WORKER manager1:2377
 # Worker2 join
 exec_in worker2 docker swarm join --token $TOKEN_WORKER manager1:2377
 
-# Up portainer
+# Up app
 docker-compose up -d proxy demo
