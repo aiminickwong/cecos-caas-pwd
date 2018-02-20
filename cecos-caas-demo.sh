@@ -27,4 +27,4 @@ exec_in worker1 docker swarm join --token $TOKEN_WORKER manager1:2377
 exec_in worker2 docker swarm join --token $TOKEN_WORKER manager1:2377
 
 # Up app
-docker-compose up -d cecos-caas-demo-proxy cecos-caas-demo
+docker-compose up -d proxy caas
