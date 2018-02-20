@@ -1,6 +1,6 @@
 version: "2"
 services:
-  proxy:
+  cecos-caas-demo-proxy:
     image: openfans/cecos-caas-demo-proxy:latest
     container_name: "cecos-caas-demo-proxy"
     ports:
@@ -8,10 +8,10 @@ services:
     networks:
       - local
 
-  caas:
+  cecos-caas-demo:
     image: openfans/cecos-caas-demo:latest
     container_name: "cecos-caas-demo"
-    hostname: caas
+    hostname: cecos-caas-demo
     command: --no-analytics -l service=openfans.cecos.caas.mgmt
     networks:
       - local
