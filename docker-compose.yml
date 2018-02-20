@@ -1,6 +1,6 @@
 version: "2"
 services:
-  proxy:
+  cecos-caas-demo-proxy:
     image: openfans/cecos-caas-demo-proxy:latest
     container_name: "cecos-caas-demo-proxy"
     ports:
