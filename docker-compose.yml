@@ -9,7 +9,7 @@ services:
       - local
 
   cecos-caas-demo:
-    image: openfans/cecos-caas-demo:latest
+    image: openfans/cecos-caas-demo:2.0.2.1-aolings
     container_name: "cecos-caas-demo"
     hostname: cecos-caas-demo
     command: --no-analytics -l service=openfans.cecos.caas.mgmt
