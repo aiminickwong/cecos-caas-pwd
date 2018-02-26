@@ -1,6 +1,6 @@
 ## CecOS CaaS 演示程序
 
-#### 点击 [演示地址](http://play-with-docker.com/?stack=https://raw.githubusercontent.com/aiminickwong/cecos-caas-pwd/master/play-with-docker/docker-stack.yml) 访问演示程序
+#### 点击 [演示地址](http://cecos.aolings.com/?stack=https://raw.githubusercontent.com/aiminickwong/cecos-caas-pwd/master/play-with-docker/docker-stack.yml) 访问演示程序
 
 #### 1. 点击“Login”登录 (使用docker.com的账户登入), 然后选择“Start”开始测试.
 ######  (如果没有，选择“Create Account”创建一个账户）
